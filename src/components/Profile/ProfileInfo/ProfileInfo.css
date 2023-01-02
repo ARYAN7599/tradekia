@@ -1,0 +1,314 @@
+.prfi_div{
+    padding: 1rem;
+    height: 100%;
+}
+
+.prfi_flex2.dfgh{
+    margin-left: 15px;
+}
+
+
+   
+
+.prfi_title{
+    font-size: 18px;
+    margin: 0.5rem auto;
+    font-weight: 600;
+    font-family: "Lato-Regular" !important;
+    color: #323232;
+    letter-spacing: 1px;
+}
+
+.prfi_box{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    background-color: white !important;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prfi_name{
+    font-size: 1.2rem;
+    margin: 0.5rem auto 0 auto;
+    color: #4a4a4a;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.prfi_email{
+    margin: 0 auto;
+    font-size: 0.9rem;
+    color: #a6a6a6;
+}
+.prfi_chngpsbtn{
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    color: #fff;
+    background: #323232;
+    border-radius: 35px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.prfi_chngpsbtn:hover {
+    background: var(--background-color);
+    color: white;
+}
+
+.prfi_btnbox{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.prfi_flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.prfi_flex2{
+    display: flex;
+    align-items: center;
+}
+
+.prfi_flex3{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.prfi_flex3 p{
+    font-size: 0.9rem;
+    color: #5c5b5b;
+    margin-bottom: 0;
+}
+
+.copyAlert{
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.prfi_text{
+    font-size: 13px;
+    margin: 0.8rem auto;
+    color: #323232;
+}
+
+.prfi_svg{
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+    margin-right: 10px !important;
+    color:  var(--background-color) !important;
+    border-radius: 1px solid grey !important;
+    
+}
+
+@media (max-width : 330px){
+    .prfi_div{
+       margin: auto;
+       width:88%;
+    }
+
+    .prfi_flex1{
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .prfi_text{
+        font-size: 2vmax;
+        margin: 0.3rem auto;
+    }
+    
+}
+
+@media (max-width : 500px) and (min-width : 331px){
+    .prfi_div{
+       margin: auto;
+       width:90%;
+    }
+
+    .prfi_flex1{
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width : 910px) and (min-width : 501px){
+    .prfi_div{
+       margin: auto;
+        width:28rem;
+    }
+}
+
+
+.bioford{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 13px;
+  }
+
+  
+
+
+table#table20 {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px auto 0;
+    font-family: "Lato-Regular" !important;
+  }
+  
+  /* Zebra striping */
+  table#table20 tr:nth-of-type(odd) {
+    background: #fff;
+  }
+  
+  table#table20 thead th {
+    background: #f1f1f1;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  
+  table#table20 td span.frstSpan{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  
+  table#table20 td span.spnDfg{
+    display: flex;
+  }
+  
+  table#table20
+  th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 13px  !important;
+  }
+  
+  table#table20 td {
+    padding: 4px 5px !important;
+    border: 1px solid #ccc !important;
+    font-size: 13px !important;
+    text-align: right !important;
+    font-family: "Lato-Regular" !important;
+    color: #626161 !important;
+  }
+  table#table20 td:last-child {
+    width: 35%;
+  }
+  
+  
+  
+  table#table20 td img {
+    width: 27px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px) {
+      table#table20 {
+      width: 100%;
+    }
+  
+    /* Force table to not be like tables anymore */
+    
+  table#table20,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+  
+    /* Hide table headers (but not display: none;, for accessibility) */
+    table#table20 thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
+    table#table20 tr {
+      border: 1px solid #ccc;
+      margin-top: 1rem;
+    }
+  
+    table#table20 td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 50%;
+      height: 45px;
+    }
+  
+    table#table20 td:last-child {
+      width: auto;
+    }
+    
+  
+    table#table20 td:before {
+      position: absolute;
+      top: 6px;
+      left: 8px;
+      white-space: nowrap;
+      content: attr(data-column);
+      color: #000;
+      font-weight: bold;
+      font-family: nunito, sans-serif !important;
+      text-transform: uppercase;
+      background: #d8dcdf;
+      padding: 0px 6px 0;
+      border-radius: 50px;
+    }
+  
+    table#table20 td span.frstSpan {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: flex-end;
+      width: 100%;
+      position: relative;
+      margin-top: 30px;
+  }
+  
+  table#table20 td span.spnDfg{
+    display: inline;
+  }
+  }
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

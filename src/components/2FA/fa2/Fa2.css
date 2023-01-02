@@ -1,0 +1,136 @@
+.fa2_maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: url(../../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  object-fit: contain;
+  height: 100vh;
+  width: 100%;
+}
+
+.fa2_card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.fa2_title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #949494;
+}
+
+.fa2_text {
+  margin: 1.2rem 0.7rem;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.fa2_codeCard {
+  background-color: white;
+  border: 1px solid #757575;
+  border-radius: 0.8rem;
+  width: 15rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.fa2_codeCard:hover {
+  background-color: #feb201b0;
+}
+
+.alert {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+ 
+.fa2_num {
+  margin: 0 auto;
+  text-align: center;
+  color: #302e2e;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 0.5rem;
+}
+
+.fa2_next {
+  width: 8rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  padding: 0.8rem;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 2rem auto;
+}
+
+.fa2_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.fa2_prev {
+  width: 8rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 0.8rem;
+  color:  var(--background-color);
+  font-size: 1.1rem;
+  border: 1px solid  var(--background-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 2rem auto;
+}
+
+@media (max-width: 250px) {
+  .fa2_card {
+    width: 88%;
+    padding: 10px 0;
+  }
+
+  .fa2_flex {
+    width: 90%;
+  }
+
+  .fa2_num {
+    font-size: 2.5vmax;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 251px) {
+  .fa2_card {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .fa2_flex {
+    width: 90%;
+  }
+
+  .fa2_num {
+    font-size: 1.1vmax;
+  }
+}

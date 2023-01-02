@@ -1,0 +1,48 @@
+.chat_div{
+    /* height : 87vh; */
+    height : 55vh; 
+    border : 1px solid #d1d1d1;
+    border-radius: 0;
+}
+
+.chat_header_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #d1d1d1;
+    padding : 0.5rem;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.chat_head_fl{
+    display: flex;
+    align-items: center;
+}
+
+.chat_msg_div{
+    height: 78%;
+    padding :1rem 2rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.chat_text_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem;
+    background-color: #fff;
+}
+
+.chat_box{
+    position: relative !important;
+    right: 0 !important;
+}
+
+.chat_side{
+    position: fixed !important;  
+}

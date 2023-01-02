@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+@mixin flexProp($drxn, $justify, $align) {
+  display: flex;
+  flex-direction: $drxn;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+.referral {
+  @include flexProp(column, center, center);
+  width: 100%;
+  background: url(../../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  object-fit: contain;
+  font-family: "Open Sans", sans-serif;
+
+  .referral_heading {
+    color: rgb(105, 105, 105);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .referral_form {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    border-radius: 10px;
+    background: white;
+    padding: 3rem 2rem;
+    text-align: center;
+    @include flexProp(column, space-around, center);
+
+    .alert_copy {
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+    .teamBox {
+      @include flexProp(row, center, flex-start);
+      width: 100%;
+      overflow-y: auto;
+
+      .chain {
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+
+        span {
+          margin: 0rem;
+          padding: 0;
+        }
+
+        .Collapsible {
+          margin: 1rem;
+          width: 100%;
+        }
+
+        .Collapsible__contentInner {
+          margin: 1rem;
+        }
+
+        .arrowDown {
+          transition: all 0.2s;
+        }
+
+        button {
+          background: var(--background-color) !important;
+          color: white !important;
+          margin: 0rem 1rem;
+          width: 100%;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+            rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+          svg {
+            color: white !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            pointer-events: none !important;
+          }
+        }
+      }
+    }
+  }
+
+  .referralBox {
+    width: 90%;
+    margin-bottom: 2rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+      rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: small;
+    }
+
+    .referralLink_div {
+      background-color: white;
+      border: 1px solid #757575;
+      border-radius: 7px;
+      width: 90%;
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0.9rem auto;
+
+      &:hover {
+        cursor: pointer;
+        background: var(--background-color);
+
+        .referral_link,
+        svg {
+          color: white !important;
+        }
+      }
+
+      .referral_link {
+        color: dimgray;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+        padding: 0 0.5rem;
+        font-weight: 400;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .socialMediaDiv {
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 2vmax auto;
+
+      button {
+        border-radius: 7px !important;
+        cursor: pointer !important;
+        display: inline-block !important;
+        font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto,
+          sans-serif !important;
+        padding: 0.5vmax 4vmax !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        transition: all 250ms !important;
+        border: 0 !important;
+        font-size: 16px !important;
+        user-select: none !important;
+        -webkit-user-select: none !important;
+        touch-action: manipulation !important;
+        margin: 0% 2%;
+        margin-bottom: 2%;
+      }
+
+      .whatsapp_btn {
+        background-color: #c2fbd7 !important;
+        color: green !important;
+        box-shadow: rgba(44, 187, 108, 0.2) 0 -25px 18px -14px inset,
+          rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+          rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+          rgba(44, 187, 99, 0.15) 0 16px 32px !important;
+        &:hover {
+          box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+            rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+            rgba(44, 187, 99, 0.25) 0 4px 8px,
+            rgba(44, 187, 99, 0.25) 0 8px 16px,
+            rgba(44, 187, 99, 0.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+        }
+      }
+
+      .fb_btn {
+        background-color: #c2dbfb !important;
+        color: blue !important;
+        box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset,
+          rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px,
+          rgba(44, 111, 187, 0.15) 0 4px 8px,
+          rgba(44, 111, 187, 0.15) 0 8px 16px,
+          rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+
+        &:hover {
+          box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset,
+            rgba(44, 111, 200, 0.25) 0 1px 2px,
+            rgba(44, 111, 200, 0.25) 0 2px 4px,
+            rgba(44, 111, 200, 0.25) 0 4px 8px,
+            rgba(44, 111, 200, 0.25) 0 8px 16px,
+            rgba(44, 111, 200, 0.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+        }
+      }
+
+      .tele_btn {
+        background-color: #aedfff !important;
+        color: white !important;
+        box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset,
+          rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px,
+          rgba(44, 111, 187, 0.15) 0 4px 8px,
+          rgba(44, 111, 187, 0.15) 0 8px 16px,
+          rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+
+        &:hover {
+          box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset,
+            rgba(44, 111, 200, 0.25) 0 1px 2px,
+            rgba(44, 111, 200, 0.25) 0 2px 4px,
+            rgba(44, 111, 200, 0.25) 0 4px 8px,
+            rgba(44, 111, 200, 0.25) 0 8px 16px,
+            rgba(44, 111, 200, 0.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+        }
+      }
+
+      .reddit_btn {
+        background-color: #ffc289 !important;
+        color: white !important;
+        box-shadow: rgba(187, 142, 44, 0.2) 0 -25px 18px -14px inset,
+          rgba(187, 142, 44, 0.15) 0 1px 2px, rgba(187, 142, 44, 0.15) 0 2px 4px,
+          rgba(187, 142, 44, 0.15) 0 4px 8px,
+          rgba(187, 142, 44, 0.15) 0 8px 16px,
+          rgba(187, 142, 44, 0.15) 0 16px 32px !important;
+
+        &:hover {
+          box-shadow: rgba(187, 142, 80, 0.35) 0 -25px 18px -14px inset,
+            rgba(187, 142, 80, 0.25) 0 1px 2px,
+            rgba(187, 142, 80, 0.25) 0 2px 4px,
+            rgba(187, 142, 80, 0.25) 0 4px 8px,
+            rgba(187, 142, 80, 0.25) 0 8px 16px,
+            rgba(187, 142, 80, 0.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+        }
+      }
+
+      .tweet_btn {
+        background-color: #89d0ff !important;
+        color: white !important;
+        box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset,
+          rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px,
+          rgba(44, 111, 187, 0.15) 0 4px 8px,
+          rgba(44, 111, 187, 0.15) 0 8px 16px,
+          rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+
+        &:hover {
+          box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset,
+            rgba(44, 111, 200, 0.25) 0 1px 2px,
+            rgba(44, 111, 200, 0.25) 0 2px 4px,
+            rgba(44, 111, 200, 0.25) 0 4px 8px,
+            rgba(44, 111, 200, 0.25) 0 8px 16px,
+            rgba(44, 111, 200, 0.25) 0 16px 32px;
+          transform: scale(1.05) rotate(-1deg);
+        }
+      }
+    }
+  }
+}
+
+.scroll_box {
+  background: white;
+  padding: 12px 5px;
+  margin: 0 auto;
+  border-radius: 3px;
+  overflow: auto;
+  transition: color 0.3s ease;
+  width: fit-content;
+
+  #mainContainer {
+    width: max-content;
+    margin-left: 0rem;
+
+    .referralContainer {
+      text-align: center;
+      margin: 0 auto;
+      padding: 10px 0.5%;
+      float: left;
+      overflow: visible;
+      position: relative;
+      width: 90%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      .member {
+        position: relative;
+        padding: 0.5rem 2rem;
+        margin: 0rem 0rem;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        left: 0;
+        top: 0;
+        @include flexProp(column, center, center);
+
+        &:hover {
+          cursor: pointer;
+          background: var(--background-color);
+          color: white;
+        }
+
+        &::after {
+          display: block;
+          position: absolute;
+          left: 50%;
+          width: 1px;
+          height: 20px;
+          background-color: rgb(105, 105, 105);
+          content: " ";
+          top: 100%;
+
+          &:nth-child(2){
+            display: none !important;
+          }
+        }
+      }
+    }
+
+    .cssContainer0 > .member::after {
+      display: none;
+
+    }
+  }
+}
+
+.referralLink_div {
+  position: relative;
+
+  .tooltiptext {
+    visibility: hidden;
+    // width: 2rem;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    right: 0px;
+    font-size: 1vmax;
+    // transition: 0.4s ease-in-out;
+
+  }
+
+  &:hover .tooltiptext{
+    visibility: visible;
+  }
+}
+
+::after{
+  &:last-child{
+    display: none !important;
+  }
+}
+
+#container::-webkit-scrollbar-thumb {
+  box-shadow: #fff inset 0 0 0 6px;
+  background-color: #b8b8b8;
+  border-radius: 5px;
+}
+
+#container::-webkit-scrollbar,
+#container::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 0px solid transparent;
+}
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 0px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+@media (max-width: 1800px) {
+  .referral .referral_form .teamBox {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .referral .referral_form {
+    width: 75%;
+
+    .teamBox .chain {
+      margin: 1rem;
+    }
+
+    h2 {
+      font-size: 3vmax;
+    }
+
+    .referralLink_div {
+      width: 80%;
+
+      .referral_link {
+        padding: 0 0.5vmax;
+        font-size: 2vmax;
+      }
+    }
+  }
+
+  .referral .referralBox .socialMediaDiv {
+    flex-wrap: wrap;
+    flex-direction: column;
+    button {
+      margin-bottom: 6%;
+      padding: 0.5vmax 11vmax !important;
+    }
+  }
+}

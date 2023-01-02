@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+
+@mixin flexProp($drxn, $align, $justify) {
+  display: flex;
+  flex-direction: $drxn;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+.orders {
+  @include flexProp(column, center, center);
+  width: 100%;
+  background: url(../../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  object-fit: contain;
+  height: 88vh;
+
+  .orders_headers {
+    @include flexProp(row, center, space-between);
+    width: 90%;
+  }
+
+  .balance {
+    color: rgb(105, 105, 105);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+  }
+
+  .balanceSheet {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 90%;
+    border-radius: 10px;
+    background: white;
+
+    .balanceSheet_div {
+      .balanceSheet_header {
+        @include flexProp(row, center, space-between);
+        margin: 0.5rem 1rem;
+
+        .totalBal_div {
+          @include flexProp(row, center, space-between);
+
+          img {
+            width: 25%;
+          }
+
+          .balDetails_div {
+            p {
+              font-size: 10px;
+              color: rgb(133, 133, 133);
+            }
+
+            h4 {
+              margin: 0rem;
+              font-size: 2vw;
+            }
+          }
+        }
+
+        .withDrawLimit_div {
+          @include flexProp(row, center, space-around);
+
+          p {
+            font-size: 10px;
+            margin: 0rem 0.7rem;
+            text-align: right;
+            span {
+              margin: 0px 5px;
+            }
+
+            &:nth-of-type(2) {
+              color: var(--background-color);
+              font-weight: 600;
+            }
+          }
+        }
+
+        .zeroBalanceWallet_div {
+          @include flexProp(row, center, space-between);
+          p {
+            font-size: 10px;
+            margin: 0rem 0.7rem;
+          }
+        }
+      }
+
+      .productListTable {
+        margin-top: 15px !important;
+
+        div {
+          font-size: 1vmax;
+        }
+
+        a,
+        .button {
+          color: rgba(0, 0, 0, 0.527) !important;
+          transition: all 0.5s !important;
+        }
+
+        // a:hover {
+        //   color: tomato;
+        // }
+
+        // .button:hover {
+        //   color: rgb(236, 30, 30) !important;
+        // }
+      }
+    }
+
+    .MuiDataGrid-root
+      .MuiDataGrid-cell--textRight.MuiDataGrid-cell--withRenderer,
+    .MuiDataGrid-root .MuiDataGrid-cell--textRight.MuiDataGrid-cell--editing {
+      display: flex !important;
+      @include flexProp(row, flex-start !important, flex-end);
+    }
+
+    .MuiDataGrid-root
+      .MuiDataGrid-columnHeader--alignRight
+      .MuiDataGrid-columnHeaderDraggableContainer,
+    .MuiDataGrid-root
+      .MuiDataGrid-columnHeader--alignRight
+      .MuiDataGrid-columnHeaderTitleContainer {
+      flex-direction: row !important;
+    }
+  }
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-size: 10px;
+  color: #858585;
+}
+
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type),
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:first-of-type) 
+ {
+  border-color: none !important;
+  padding: 0.3rem 1rem;
+  font-weight: 600;
+  border: 0.5px solid #858585 !important;
+  border-radius: 5px;
+
+  &:hover{
+      background-color: var(--background-color) !important;
+      color: white !important;
+  }
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.MuiDataGrid-root {
+     border: none !important; 
+}
+
+.MuiIconButton-root:hover,
+.MuiIconButton-root:active {
+    background: none !important;
+    background-color: none !important;
+}
+
+.css-r47a1p-MuiFormControl-root {
+    width: 40vmax !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover {
+    background: none !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    border-radius: 10px !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within,
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within,
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: 1px solid var(--background-color) !important;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+*/
+
+@media screen and (max-width: 600px) {
+
+  .orders .balanceSheet .balanceSheet_div .productListTable div {
+    font-size: 1.8vw;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .totalBal_div
+    img {
+    margin: 0px 4%;
+  }
+
+  .balDetails_div {
+    margin: 0px 4%;
+  }
+
+  .orders .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div {
+    width: 8rem;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .totalBal_div
+    .balDetails_div
+    p {
+    font-size: 2vw;
+    color: #858585;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .totalBal_div
+    .balDetails_div
+    h4 {
+    margin: 0rem;
+    font-size: 2.5vw;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .withDrawLimit_div
+    p {
+    margin: 0.2rem 0.1rem;
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .orders .balanceSheet .balanceSheet_div .balanceSheet_header {
+    margin: 0.5rem;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .zeroBalanceWallet_div
+    p {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0.2rem 0.1rem;
+  }
+
+  .pretty {
+    margin: -0.6rem 1.1rem !important;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .withDrawLimit_div {
+    flex-direction: column;
+  }
+
+  .orders
+    .balanceSheet
+    .balanceSheet_div
+    .balanceSheet_header
+    .zeroBalanceWallet_div {
+    flex-direction: column-reverse;
+    height: 2rem;
+    text-align: center;
+  }
+}

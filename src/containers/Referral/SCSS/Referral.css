@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+.referral {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: url(../../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: "Open Sans", sans-serif;
+}
+
+.referral .referral_heading {
+  color: dimgray;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.referral .referral_form {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+  border-radius: 10px;
+  background: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.referral .referral_form .alert_copy {
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.referral .referral_form .teamBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.referral .referral_form .teamBox .chain {
+  margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.referral .referral_form .teamBox .chain span {
+  margin: 0rem;
+  padding: 0;
+}
+
+.referral .referral_form .teamBox .chain .Collapsible {
+  margin: 1rem;
+  width: 100%;
+}
+
+.referral .referral_form .teamBox .chain .Collapsible__contentInner {
+  margin: 1rem;
+}
+
+.referral .referral_form .teamBox .chain .arrowDown {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.referral .referral_form .teamBox .chain button {
+  background: var(--background-color) !important;
+  color: white !important;
+  margin: 0rem 1rem;
+  width: 100%;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.referral .referral_form .teamBox .chain button svg {
+  color: white !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  pointer-events: none !important;
+}
+
+.referral .referralBox {
+  width: 90%;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+          box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.referral .referralBox h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+
+.referral .referralBox .referralLink_div {
+  background-color: white;
+  border: 1px solid #757575;
+  border-radius: 7px;
+  width: 90%;
+  padding: 0.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.9rem auto;
+}
+
+.referral .referralBox .referralLink_div:hover {
+  cursor: pointer;
+  background: var(--background-color);
+}
+
+.referral .referralBox .referralLink_div:hover .referral_link,
+.referral .referralBox .referralLink_div:hover svg {
+  color: white !important;
+}
+
+.referral .referralBox .referralLink_div .referral_link {
+  color: dimgray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.referral .referralBox .socialMediaDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2vmax auto;
+}
+
+.referral .referralBox .socialMediaDiv button {
+  border-radius: 7px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif !important;
+  padding: 0.5vmax 4vmax !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  -webkit-transition: all 250ms !important;
+  transition: all 250ms !important;
+  border: 0 !important;
+  font-size: 16px !important;
+  -moz-user-select: none !important;
+   -ms-user-select: none !important;
+       user-select: none !important;
+  -webkit-user-select: none !important;
+  -ms-touch-action: manipulation !important;
+      touch-action: manipulation !important;
+  margin: 0% 2%;
+  margin-bottom: 2%;
+}
+
+.referral .referralBox .socialMediaDiv .whatsapp_btn {
+  background-color: #c2fbd7 !important;
+  color: green !important;
+  -webkit-box-shadow: rgba(44, 187, 108, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px !important;
+          box-shadow: rgba(44, 187, 108, 0.2) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px, rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px, rgba(44, 187, 99, 0.15) 0 16px 32px !important;
+}
+
+.referral .referralBox .socialMediaDiv .whatsapp_btn:hover {
+  -webkit-box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+          box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset, rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px, rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px, rgba(44, 187, 99, 0.25) 0 16px 32px;
+  -webkit-transform: scale(1.05) rotate(-1deg);
+          transform: scale(1.05) rotate(-1deg);
+}
+
+.referral .referralBox .socialMediaDiv .fb_btn {
+  background-color: #c2dbfb !important;
+  color: blue !important;
+  -webkit-box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px, rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 111, 187, 0.15) 0 8px 16px, rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+          box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px, rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 111, 187, 0.15) 0 8px 16px, rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+}
+
+.referral .referralBox .socialMediaDiv .fb_btn:hover {
+  -webkit-box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset, rgba(44, 111, 200, 0.25) 0 1px 2px, rgba(44, 111, 200, 0.25) 0 2px 4px, rgba(44, 111, 200, 0.25) 0 4px 8px, rgba(44, 111, 200, 0.25) 0 8px 16px, rgba(44, 111, 200, 0.25) 0 16px 32px;
+          box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset, rgba(44, 111, 200, 0.25) 0 1px 2px, rgba(44, 111, 200, 0.25) 0 2px 4px, rgba(44, 111, 200, 0.25) 0 4px 8px, rgba(44, 111, 200, 0.25) 0 8px 16px, rgba(44, 111, 200, 0.25) 0 16px 32px;
+  -webkit-transform: scale(1.05) rotate(-1deg);
+          transform: scale(1.05) rotate(-1deg);
+}
+
+.referral .referralBox .socialMediaDiv .tele_btn {
+  background-color: #aedfff !important;
+  color: white !important;
+  -webkit-box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px, rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 111, 187, 0.15) 0 8px 16px, rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+          box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px, rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 111, 187, 0.15) 0 8px 16px, rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+}
+
+.referral .referralBox .socialMediaDiv .tele_btn:hover {
+  -webkit-box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset, rgba(44, 111, 200, 0.25) 0 1px 2px, rgba(44, 111, 200, 0.25) 0 2px 4px, rgba(44, 111, 200, 0.25) 0 4px 8px, rgba(44, 111, 200, 0.25) 0 8px 16px, rgba(44, 111, 200, 0.25) 0 16px 32px;
+          box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset, rgba(44, 111, 200, 0.25) 0 1px 2px, rgba(44, 111, 200, 0.25) 0 2px 4px, rgba(44, 111, 200, 0.25) 0 4px 8px, rgba(44, 111, 200, 0.25) 0 8px 16px, rgba(44, 111, 200, 0.25) 0 16px 32px;
+  -webkit-transform: scale(1.05) rotate(-1deg);
+          transform: scale(1.05) rotate(-1deg);
+}
+
+.referral .referralBox .socialMediaDiv .reddit_btn {
+  background-color: #ffc289 !important;
+  color: white !important;
+  -webkit-box-shadow: rgba(187, 142, 44, 0.2) 0 -25px 18px -14px inset, rgba(187, 142, 44, 0.15) 0 1px 2px, rgba(187, 142, 44, 0.15) 0 2px 4px, rgba(187, 142, 44, 0.15) 0 4px 8px, rgba(187, 142, 44, 0.15) 0 8px 16px, rgba(187, 142, 44, 0.15) 0 16px 32px !important;
+          box-shadow: rgba(187, 142, 44, 0.2) 0 -25px 18px -14px inset, rgba(187, 142, 44, 0.15) 0 1px 2px, rgba(187, 142, 44, 0.15) 0 2px 4px, rgba(187, 142, 44, 0.15) 0 4px 8px, rgba(187, 142, 44, 0.15) 0 8px 16px, rgba(187, 142, 44, 0.15) 0 16px 32px !important;
+}
+
+.referral .referralBox .socialMediaDiv .reddit_btn:hover {
+  -webkit-box-shadow: rgba(187, 142, 80, 0.35) 0 -25px 18px -14px inset, rgba(187, 142, 80, 0.25) 0 1px 2px, rgba(187, 142, 80, 0.25) 0 2px 4px, rgba(187, 142, 80, 0.25) 0 4px 8px, rgba(187, 142, 80, 0.25) 0 8px 16px, rgba(187, 142, 80, 0.25) 0 16px 32px;
+          box-shadow: rgba(187, 142, 80, 0.35) 0 -25px 18px -14px inset, rgba(187, 142, 80, 0.25) 0 1px 2px, rgba(187, 142, 80, 0.25) 0 2px 4px, rgba(187, 142, 80, 0.25) 0 4px 8px, rgba(187, 142, 80, 0.25) 0 8px 16px, rgba(187, 142, 80, 0.25) 0 16px 32px;
+  -webkit-transform: scale(1.05) rotate(-1deg);
+          transform: scale(1.05) rotate(-1deg);
+}
+
+.referral .referralBox .socialMediaDiv .tweet_btn {
+  background-color: #89d0ff !important;
+  color: white !important;
+  -webkit-box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px, rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 111, 187, 0.15) 0 8px 16px, rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+          box-shadow: rgba(44, 111, 187, 0.2) 0 -25px 18px -14px inset, rgba(44, 111, 187, 0.15) 0 1px 2px, rgba(44, 111, 187, 0.15) 0 2px 4px, rgba(44, 111, 187, 0.15) 0 4px 8px, rgba(44, 111, 187, 0.15) 0 8px 16px, rgba(44, 111, 187, 0.15) 0 16px 32px !important;
+}
+
+.referral .referralBox .socialMediaDiv .tweet_btn:hover {
+  -webkit-box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset, rgba(44, 111, 200, 0.25) 0 1px 2px, rgba(44, 111, 200, 0.25) 0 2px 4px, rgba(44, 111, 200, 0.25) 0 4px 8px, rgba(44, 111, 200, 0.25) 0 8px 16px, rgba(44, 111, 200, 0.25) 0 16px 32px;
+          box-shadow: rgba(44, 111, 200, 0.35) 0 -25px 18px -14px inset, rgba(44, 111, 200, 0.25) 0 1px 2px, rgba(44, 111, 200, 0.25) 0 2px 4px, rgba(44, 111, 200, 0.25) 0 4px 8px, rgba(44, 111, 200, 0.25) 0 8px 16px, rgba(44, 111, 200, 0.25) 0 16px 32px;
+  -webkit-transform: scale(1.05) rotate(-1deg);
+          transform: scale(1.05) rotate(-1deg);
+}
+
+.scroll_box {
+  background: white;
+  padding: 12px 5px;
+  margin: 0 auto;
+  border-radius: 3px;
+  overflow: auto;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.scroll_box #mainContainer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin-left: 0rem;
+}
+
+.scroll_box #mainContainer .referralContainer {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0.5%;
+  float: left;
+  overflow: visible;
+  position: relative;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.scroll_box #mainContainer .referralContainer .member {
+  position: relative;
+  padding: 0.5rem 2rem;
+  margin: 0rem 0rem;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scroll_box #mainContainer .referralContainer .member:hover {
+  cursor: pointer;
+  background: var(--background-color);
+  color: white;
+}
+
+.scroll_box #mainContainer .referralContainer .member::after {
+  display: block;
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  height: 20px;
+  background-color: dimgray;
+  content: " ";
+  top: 100%;
+}
+
+.scroll_box #mainContainer .referralContainer .member::after:nth-child(2) {
+  display: none !important;
+}
+
+.scroll_box #mainContainer .cssContainer0 > .member::after {
+  display: none;
+}
+
+.referralLink_div {
+  position: relative;
+}
+
+.referralLink_div .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: -40px;
+  right: 0px;
+  font-size: 1vmax;
+}
+
+.referralLink_div:hover .tooltiptext {
+  visibility: visible;
+}
+
+::after:last-child {
+  display: none !important;
+}
+
+#container::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: #fff inset 0 0 0 6px;
+          box-shadow: #fff inset 0 0 0 6px;
+  background-color: #b8b8b8;
+  border-radius: 5px;
+}
+
+#container::-webkit-scrollbar,
+#container::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 0px solid transparent;
+}
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 2px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  border: 0px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
+
+@media (max-width: 1800px) {
+  .referral .referral_form .teamBox {
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .referral .referral_form {
+    width: 75%;
+  }
+  .referral .referral_form .teamBox .chain {
+    margin: 1rem;
+  }
+  .referral .referral_form h2 {
+    font-size: 3vmax;
+  }
+  .referral .referral_form .referralLink_div {
+    width: 80%;
+  }
+  .referral .referral_form .referralLink_div .referral_link {
+    padding: 0 0.5vmax;
+    font-size: 2vmax;
+  }
+  .referral .referralBox .socialMediaDiv {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .referral .referralBox .socialMediaDiv button {
+    margin-bottom: 6%;
+    padding: 0.5vmax 11vmax !important;
+  }
+}
+/*# sourceMappingURL=Referral.css.map */

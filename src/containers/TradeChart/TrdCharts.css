@@ -1,0 +1,426 @@
+.table-fixed-head>thead>tr>th {
+    background-color: #e3e3e3;
+    font-family: "Lato-Regular" !important;
+    letter-spacing: 1px !important;
+    color: #333 !important;
+}
+
+
+
+.modelfufis {
+    display: block;
+}
+
+.modelfufis .boxied {
+    display: none;
+}
+
+
+.modelfufis .boxied {
+    float: right;
+    top: 17px;
+    position: relative;
+    right: 15px;
+}
+
+.modelfufis {
+    bottom: 0;
+    right: 0;
+    transform: translate(0%, 0%);
+    margin: 0 auto;
+    position: absolute;
+    max-width: 800px;
+    left: 0;
+    z-index: 999;
+    padding: 0.1rem 0rem;
+    background: #ebebe9;
+    top: auto !important;
+}
+
+.modelfufis:focus {
+    outline: none !important;
+}
+
+.boxified {
+    display: none;
+}
+
+.boxified {
+
+    position: fixed !important;
+    overflow: hidden !important;
+    z-index: 9 !important;
+    bottom: 0;
+    height: 83px !important;
+    width: 100%;
+}
+
+.leftpapers {
+    z-index: 1 !important;
+
+}
+
+#tabOutline {
+    padding: 0 0px !important;
+}
+
+#outlined-adornment-weight {
+    padding: 3px 1px 3px 5px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #000 !important;
+}
+
+.spandf {
+    font-size: 0.5rem;
+    padding: 10px;
+    float: right;
+    display: block;
+    text-align: right;
+}
+
+.butnbyfufi {
+    padding: 0 !important;
+    margin: 10px 0 10px 0 !important;
+    line-height: 40px !important;
+    border-radius: 37px !important;
+}
+
+.butnbyfufi.df1 {
+    background-color: #2d7836 !important;
+}
+
+.butnbyfufi.kf1 {
+    background-color: #b12f2f !important;
+}
+
+
+.css-mrb1mj {
+    width: auto !important;
+}
+
+#trdekias-tabs1 ul li {
+    list-style: none;
+    flex: 0 0 74px;
+    background: #c7c5c1;
+    padding: 3px 8px;
+    border-radius: 20px !important;
+    white-space: pre;
+    margin: 0 3px;
+    letter-spacing: 1px;
+}
+
+#trdekias-tabs1 ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-left: 5px;
+}
+
+
+.email,
+.phone {
+    display: none;
+}
+
+.rb-email:checked~.email {
+    display: inline;
+}
+
+.rb-phone:checked~.phone {
+    display: inline;
+}
+
+#butn ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 43px;
+}
+
+#butn ul li {
+    flex: 0 0 140px;
+    list-style: none;
+    line-height: 47px;
+}
+
+#trdekias-tabs1 ul li.selected {
+    color: #ffffff;
+    background: #2e2b20;
+}
+
+
+#butn ul li {
+    background: #149329;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin: 3px 6px;
+    border-radius: 10px !important;
+}
+
+#butn ul li:nth-child(2) {
+    background: #dd2525;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+#menu-appbar+div {
+    position: fixed !important;
+
+}
+
+#menu-appbar+div.mdtrademodal {
+    position: static !important;
+
+}
+
+
+.secondiv {
+    display: none;
+}
+
+.secondiv2 {
+    display: none;
+}
+
+
+.boxflex ul li {
+    list-style: none;
+    float: right;
+    margin: 1px 5px;
+    border-radius: 19px !important;
+}
+
+.boxflex ul li button {
+    background-color: transparent;
+    border: none;
+    width: 75px;
+    padding: 2px 0px;
+    font-size: 18px;
+    border-radius: 6px !important;
+}
+
+.cont2 {
+    background-color: #af9812;
+    pointer-events: none;
+    font-weight: bold;
+    color: #000;
+    border-bottom: 3px solid #6c6969;
+}
+
+.cont {
+    background-color: #bbb6b7;
+
+}
+
+.boxflex ul {
+    width: 100%;
+    margin: 8px 0 15px 0;
+    padding: 0;
+}
+
+.boxflex ul {
+    display: block;
+}
+
+
+.trdekias-tabs1 {
+    padding: 0 !important;
+}
+
+
+.trdekias-tabs {
+    padding: 0 !important;
+}
+
+#trdekias-tabs div:nth-child(4) {
+    height: 100%;
+
+}
+
+
+#trdekias-tabs1>div:nth-child(4) {
+    height: 100%;
+}
+
+
+.Demo .MuiPaper-elevation1 {
+    box-shadow: none !important;
+}
+
+.css-1pyfst {
+    padding: 2px !important;
+}
+
+
+
+.TableScrollbar {
+    height: 100% !important;
+}
+
+
+.fikerjs {
+    margin-bottom: 10px !important;
+}
+
+.bg-salmon {
+    background-color: #149329;
+}
+
+#menu-appbar+.swal2-container.swal2-center.swal2-backdrop-show {
+    position: fixed !important;
+    background-color: transparent;
+    width: 35% !important;
+    max-width: none !important;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+#menu-appbar+.swal2-container.swal2-center.swal2-backdrop-show div {
+
+    background: #fff !important;
+
+}
+
+#menu-appbar+div+.swal2-container.swal2-center.swal2-backdrop-show {
+    z-index: 99999999999999 !important;
+}
+
+#menu-appbar+div#sedCoin {
+    position: fixed !important;
+}
+
+
+
+
+/* @media (max-width: 768px) {
+    .modelfufis{
+        display: none;
+    }
+} */
+
+@media (max-width: 1152px) and (orientation: landscape) {
+    .modelfufis {
+        right: -14% !important;
+        transform: translate(14%, 0) !important;
+
+    }
+
+    .boxified {
+        background-color: transparent !important;
+    }
+
+    .boxified div {
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
+    }
+}
+
+@media (max-width: 1152px) {
+    .modelfufis {
+        display: none;
+    }
+
+    .boxified {
+        display: block;
+        height: 76px !important;
+    }
+
+    .modelfufis .boxied {
+        display: block;
+    }
+
+}
+
+
+
+
+@media (min-width: 600px) {
+
+
+    #menu-appbar+.swal2-container.swal2-center.swal2-backdrop-show {
+        position: fixed !important;
+
+        width: 35% !important;
+        max-width: none !important;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+    }
+
+
+    .boxflex ul {
+        display: none;
+    }
+
+    .secondiv {
+        display: block;
+    }
+
+    .secondiv2 {
+        display: block;
+    }
+
+
+    #menu-appbar+div {
+        position: fixed !important;
+    }
+
+    #menu-appbar+div.mdtrademodal {
+        position: static !important;
+    }
+
+    #menu-appbar+div#sedCoin div div div+div {
+        padding: 0 0 0 !important;
+    }
+
+
+    #menu-appbar+div#sedCoin div div div+div button {
+        margin: 0 3% 0 !important;
+    }
+
+
+
+    /* .modelfufis{
+            display: block;
+        } */
+
+
+    /* .modelfufis{
+            display: block;
+        } */
+
+    #tabOutline {
+        padding: 0 0px !important;
+    }
+
+
+    .boxified {
+        position: fixed !important;
+        overflow: hidden !important;
+        z-index: 999999999999999999 !important;
+        bottom: 0;
+        height: 80px !important;
+        width: 100%;
+        padding-top: 7px;
+    }
+
+    .modelfufis {
+        top: 295px !important;
+        right: 0;
+        transform: translate(0, 273px);
+        margin: 0 auto;
+        position: absolute;
+        max-width: 678px;
+        left: 0;
+        z-index: 99999999999;
+    }
+
+
+}

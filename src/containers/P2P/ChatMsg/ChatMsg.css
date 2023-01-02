@@ -1,0 +1,21 @@
+.css-1d6y1ul-MuiCardContent-root:last-child{
+    padding-bottom: 0 !important;
+}
+.css-1d6y1ul-MuiCardContent-root{
+    padding : 5px !important;
+}
+
+.msg_card{
+    /* background: #c7e1ef !important; */
+    background: #cfc7ef !important;
+    width: fit-content;
+    max-width: 250px;
+
+}
+
+.msg_card1{
+    background: #c7e1ef !important;
+    width: fit-content;
+    max-width: 250px ;
+
+}

@@ -1,0 +1,25 @@
+h4 {
+  margin-top: 0;
+}
+
+.secret_key_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #secretKey {
+    width: 80%;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #a1a1a1;
+    box-shadow: #a1a1a1 1.95px 1.95px 2.6px;
+    margin: 0rem 1rem;
+  }
+}
+
+.otp_inp_div {
+  margin-bottom: 2rem;
+}

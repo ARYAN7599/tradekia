@@ -1,0 +1,141 @@
+.vself_maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: url(../../../assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    object-fit: contain;
+    height: 88vh;
+}
+
+.vself_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    width: 50%;
+}
+
+.vself_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.vself_flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vself_flex3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+
+.vself_upltitle{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.vself_img{
+    height:5rem;
+    width: 5rem;
+}
+
+.vself_upl{
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:  var(--background-color);
+    font-size: 0.8rem;
+    border: 1px solid #595959;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin:0 auto;
+}
+
+.vself_next{
+    width:8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  var(--background-color);
+    padding: 0.8rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 2rem auto;
+    border: none;
+}
+
+.vself_prev{
+    width:8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0.8rem;
+    color:  var(--background-color);
+    font-size: 1.1rem;
+    border: 1px solid  var(--background-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 2rem auto;
+}
+
+
+@media (max-width:400px){
+    .vself_card{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .vself_flex{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .vself_flex2{
+        margin-bottom: 1rem;
+    }
+
+    .vself_flex2 h3{
+        font-size: 1rem;
+        margin: 5px auto;
+    }
+
+    .vself_img{
+        height: 3rem;
+    }
+
+    .vself_flex3{
+        width: 95%;
+    }
+}
+
+
+@media (max-width:750px) and (min-width:401px){
+    .vself_card{
+        padding: 10px;
+        width: 90%;
+    }
+
+    .vself_flex3{
+        width: 95%;
+    }
+}

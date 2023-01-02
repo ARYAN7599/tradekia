@@ -1,0 +1,213 @@
+
+
+
+.userName_div{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+
+.home_logo {
+    width: 15rem;
+    margin-right: 5px;
+  }
+
+  header{
+    position: relative!important;
+    z-index: 9999999999999999999999 !important;
+    pointer-events: all !important;
+  }
+
+  .logoAndMenuBarDiv div:nth-child(3){
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+  }
+  
+  .home_name {
+    margin: 0 1rem 0 0;
+    font-weight: 600;
+  }
+  
+  .userName_div h2,
+  .userName_div p {
+    color: #333;
+    font-family: "Lato-Regular" !important;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .home_lgout {
+    margin: 0 1rem 0 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .logoAndMenuBarDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 73%;
+  }
+  
+  .home_settng {
+    display: none;
+  }
+  
+  .profileDiv {
+    flex-direction: row-reverse;
+    flex: 0 1 42% !important;
+    justify-content: center!important;
+  }
+  
+  .MuiTypography-body1 {
+    color: black;
+  }
+  
+  .css-6hp17o-MuiList-root-MuiMenu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .MuiTypography-body1 {
+    margin: 5px !important;
+    padding: 0.5vmax;
+  }
+  
+  .css-1cndkqf-MuiToolbar-root {
+    justify-content: space-between;
+  }
+  
+  .css-1t6c9ts a {
+    margin: 5px;
+  }
+  
+  /*
+   ______________________________________________
+  |                                              |
+  |            MEDIA QUERIES CSS                 |
+  |______________________________________________|
+  */
+  
+  @media screen and (max-width: 600px) {
+  
+    .css-1cndkqf-MuiToolbar-root {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .logoAndMenuBarDiv {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      width: -webkit-fill-available;
+    }
+  
+    .userInfoBox {
+      width: 33%;
+    }
+    /* home_lgout */
+    .home_logo {
+      width: 25vmax;
+      margin: 5px 0rem;
+    }
+  
+    .userName_div {
+      display: none;
+    }
+  
+    .userName_div h2 {
+      font-size: 2vmax;
+    }
+  
+    .userName_div p {
+      font-size: 1.8vmax;
+    }
+  
+    .userName_div h2,
+    .userName_div p {
+      padding: 8px !important;
+      color: black;
+    }
+  
+    .profileDiv:hover + .userInfoBox {
+      display: flex !important;
+      flex-direction: column-reverse !important;
+    }
+  
+    .profileDiv:hover .userName_div {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 8vmax;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      background-color: white;
+      color: black;
+      border-radius: 4px;
+      right: -5px;
+    }
+  
+    .profileDiv:hover .home_settng {
+      display: block;
+    }
+  
+    .css-av538e-MuiButtonBase-root-MuiIconButton-root {
+      margin-right: 1rem !important;
+    }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .home_logo {
+      width: 27vmax;
+    }
+  }
+  
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fdb201;
+    z-index: 1;
+    top: 85%;
+    font-family: "Lato-Regular" !important;
+    padding-top: 2rem;
+  }
+  
+  .dropdown-content a {
+    padding: 2px 5px;
+    text-decoration: none;
+    display: block;
+    font-family: "Lato-Regular" !important;
+    text-transform: uppercase;
+    color: #545353;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 0;
+    font-size: 12px;
+    margin: 0 10px;
+    transition: color 1s;
+    white-space: pre;
+    line-height: 25px;
+  }
+  
+  .dropdown-content a:hover {background-color:transparent;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}

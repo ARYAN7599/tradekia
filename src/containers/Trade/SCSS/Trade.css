@@ -1,0 +1,386 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+.trade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: url(../../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 88vh;
+}
+
+.balDetails_div{
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.balDetails_div h4{
+ margin-bottom: 0;
+ padding-top: 3px;
+ font-size: 13px;
+}
+
+.trade .balance {
+  color: dimgray;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.trade .balanceSheet {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 90%;
+  border-radius: 10px;
+  background: white;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5rem 1rem;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div img {
+  width: 25%;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div .balDetails_div p {
+  font-size: 10px;
+  color: #858585;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div .balDetails_div h4 {
+  margin: 0rem;
+  font-size: 2vw;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div p {
+  font-size: 10px;
+  margin: 0rem 0.7rem;
+  text-align: right;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div p span {
+  margin: 0px 5px;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div p:nth-of-type(2) {
+  color: var(--background-color);
+  font-weight: 600;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .zeroBalanceWallet_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.trade .balanceSheet .balanceSheet_div .balanceSheet_header .zeroBalanceWallet_div p {
+  font-size: 10px;
+  margin: 0rem 0.7rem;
+}
+
+.trade .balanceSheet .balanceSheet_div .productListTable {
+  margin-top: 15px !important;
+}
+
+.trade .balanceSheet .balanceSheet_div .productListTable div {
+  font-size: 1vmax;
+}
+
+.trade .balanceSheet .balanceSheet_div .productListTable a,
+.trade .balanceSheet .balanceSheet_div .productListTable .button {
+  color: rgba(0, 0, 0, 0.527) !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
+}
+
+.trade .balanceSheet .MuiDataGrid-root
+.MuiDataGrid-cell--textRight.MuiDataGrid-cell--withRenderer,
+.trade .balanceSheet .MuiDataGrid-root .MuiDataGrid-cell--textRight.MuiDataGrid-cell--editing {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.trade .balanceSheet .MuiDataGrid-root
+.MuiDataGrid-columnHeader--alignRight
+.MuiDataGrid-columnHeaderDraggableContainer,
+.trade .balanceSheet .MuiDataGrid-root
+.MuiDataGrid-columnHeader--alignRight
+.MuiDataGrid-columnHeaderTitleContainer {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+.trade .balanceSheet .MuiDataGrid-root .MuiDataGrid-iconSeparator {
+  color: var(--background-color) !important;
+  margin-right: 5px !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-size: 10px;
+  color: #858585;
+}
+
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type),
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:first-of-type) {
+  border-color: none !important;
+  padding: 0.3rem 1rem;
+  font-weight: 600;
+  border: 0.5px solid #858585 !important;
+  border-radius: 5px;
+}
+
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type):hover,
+.css-zqcytf-MuiButtonGroup-root .MuiButtonGroup-grouped:not(:first-of-type):hover {
+  background-color: var(--background-color) !important;
+  color: white !important;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 2px;
+}
+
+.MuiDataGrid-root {
+  border: none !important;
+}
+
+.MuiIconButton-root:hover,
+.MuiIconButton-root:active {
+  background: none !important;
+  background-color: none !important;
+}
+
+.css-r47a1p-MuiFormControl-root {
+  width: 40vmax !important;
+}
+
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover {
+  background: none !important;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 10px !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within,
+.MuiDataGrid-root .MuiDataGrid-cell:focus-within,
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: 1px solid var(--background-color) !important;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+*/
+@media screen and (max-width: 600px) {
+  .trade .balanceSheet .balanceSheet_div .productListTable div {
+    font-size: 1.8vw;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.totalBal_div
+img {
+    margin: 0px 4%;
+  }
+  .balDetails_div {
+    margin: 0px 4%;
+  }
+  .trade .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div {
+    width: 8rem;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.totalBal_div
+.balDetails_div
+p {
+    font-size: 2vw;
+    color: #858585;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.totalBal_div
+.balDetails_div
+h4 {
+    margin: 0rem;
+    font-size: 2.5vw;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.withDrawLimit_div
+p {
+    margin: 0.2rem 0.1rem;
+    font-size: 2vw;
+    text-align: center;
+  }
+  .trade .balanceSheet .balanceSheet_div .balanceSheet_header {
+    margin: 0.5rem;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.zeroBalanceWallet_div
+p {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0.2rem 0.1rem;
+  }
+  .pretty {
+    margin: -0.6rem 1.1rem !important;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.withDrawLimit_div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .trade
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.zeroBalanceWallet_div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 2rem;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Trade.css.map */
+
+.MuiPaper-elevation1 {
+  box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%) !important;
+}
+
+.Demo.content-1of6 div{
+  background: transparent !important;
+  color: #333;
+}
+.Demo.content-1of6 div span{
+  letter-spacing: 0px;
+  font-family: "Lato-Regular" !important;
+  font-size: 13px;
+  color: #50504e;
+  font-weight: bold;
+}
+@media (min-width: 2500px)  {
+  .Demo.content-1of6 div span {
+    letter-spacing: 0px;
+    font-family: "Lato-Regular" !important;
+    font-size: 19px;
+    color: #50504e;
+    font-weight: bold;
+}
+.balDetails_div h4 {
+  margin-bottom: 0;
+  padding-top: 3px;
+  font-size: 15px;
+}
+}

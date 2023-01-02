@@ -1,0 +1,35 @@
+/* html,
+body,
+#root,
+.App {
+  margin: 0;
+  height: 100%;
+} */
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+} */
+
+.chart-container {
+  flex: 1;
+}
+
+.tv-lightweight-charts {
+  flex: 1;
+  height: 300px  !important;
+}
+
+/* h1,
+p {
+  font-family: Lato;
+}
+
+#chartview{
+    width: 500px;
+    /* height: auto; */
+    /* display: flex;
+    flex-direction: column;
+    flex: 1;
+} */ 

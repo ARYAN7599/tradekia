@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1064" data-name="Rectangle 1064" width="26" height="26" transform="translate(77 751)" fill="#feb100"/>
+    </clipPath>
+  </defs>
+  <g id="verification" transform="translate(-16950 2112)">
+    <circle id="Ellipse_122" data-name="Ellipse 122" cx="19.5" cy="19.5" r="19.5" transform="translate(16950.5 -2111.5)" fill="#fff" stroke="#1b1b1b" stroke-width="1" opacity="0.1"/>
+    <g id="Group_103" data-name="Group 103" transform="translate(16880 -2856)" clip-path="url(#clip-path)">
+      <path id="Path_3023" data-name="Path 3023" d="M90,760.75a1.625,1.625,0,0,0-1.625,1.625v4.875a1.625,1.625,0,0,0,3.25,0v-4.875A1.625,1.625,0,0,0,90,760.75Z" fill="#feb100"/>
+      <path id="Path_3024" data-name="Path 3024" d="M90.353,771.1a1.625,1.625,0,0,0-1.625,1.625v3.25a1.625,1.625,0,0,0,3.25,0v-3.25A1.625,1.625,0,0,0,90.353,771.1Z" fill="#feb100"/>
+      <path id="Path_3025" data-name="Path 3025" d="M90,755.875a6.508,6.508,0,0,0-6.5,6.5v3.25a1.625,1.625,0,0,0,3.25,0v-3.25a3.25,3.25,0,1,1,6.5,0V773.75a1.625,1.625,0,0,0,3.25,0V762.375A6.507,6.507,0,0,0,90,755.875Z" fill="#feb100"/>
+      <path id="Path_3026" data-name="Path 3026" d="M85.327,769.43a1.625,1.625,0,0,0-1.625,1.625v3.25a1.625,1.625,0,0,0,3.25,0v-3.25A1.625,1.625,0,0,0,85.327,769.43Z" fill="#feb100"/>
+      <path id="Path_3027" data-name="Path 3027" d="M81.812,756.835a1.628,1.628,0,0,0-2.155.8,11.3,11.3,0,0,0-1.032,4.74V770.5a1.625,1.625,0,0,0,3.25,0v-8.125a8.058,8.058,0,0,1,.736-3.385A1.626,1.626,0,0,0,81.812,756.835Z" fill="#feb100"/>
+      <path id="Path_3028" data-name="Path 3028" d="M85.261,755.774a8.126,8.126,0,0,1,12.864,6.6,1.625,1.625,0,0,0,3.25,0,11.376,11.376,0,0,0-18.011-9.239,1.625,1.625,0,1,0,1.9,2.638Z" fill="#feb100"/>
+      <path id="Path_3029" data-name="Path 3029" d="M99.75,765.625a1.625,1.625,0,0,0-1.625,1.625v3.25a1.625,1.625,0,0,0,3.25,0v-3.25A1.626,1.626,0,0,0,99.75,765.625Z" fill="#feb100"/>
+    </g>
+  </g>
+</svg>

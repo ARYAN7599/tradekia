@@ -1,0 +1,796 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+.quickby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -o-object-fit: contain;
+     object-fit: contain;
+  /* height: 88vh; */
+}
+
+
+.custoMsell{
+  line-height: 24px !important;
+  position: relative;
+  top: 15px;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+
+}
+
+
+
+.custoMsell button {
+  position: relative;
+  float: right !important;
+  top: -6px;
+}
+
+#p2pg{
+  height: 50px;
+}
+
+.demo1{
+  padding: 10px 0 0;
+  margin: 4px 4px;
+  background: #fff;
+  transition: background-color 0.3s ease;
+  border: 0px solid #d1caba;
+  border-radius: 5px;
+  box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%);
+}
+
+span#lcoin {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+span#lcoinSelected{
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #0da447;
+}
+span#lcoin:hover {
+  color: wheat;
+  background-color: #fdb201;
+}
+
+button#etypeactive {
+  background-color: #1f9358;
+  margin: 1 !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  position: relative;
+  cursor: pointer;
+}
+button#etype {
+  background-color: #2ca1d7;
+  margin: 1 !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  position: relative;
+  cursor: pointer;
+  white-space: pre;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+button#etype:hover {
+  color: wheat;
+  background-color: #fdb201;
+}
+div#coption {
+  height: 5px;
+}
+
+h2#customizeddd-dialog-title_option_buy{
+  background-color: #0da447;
+}
+h2#customizeddd-dialog-title_option_sell{
+  background-color: #f21018;
+}
+
+.vpers_inp12{
+  width: 90%;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #a1a1a1;
+
+}
+.amoutlbl{
+  background: #fff;
+  /* padding: 2px 10px!important; */
+  border-radius: 14px;
+  color: #333 !important;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+.paybton {
+  width: 100% !important;
+  padding: 0 2rem !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  height: 41px !important;
+}
+
+
+#outlined-adornment-amount{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.MuiDataGrid-root.MuiDataGrid-cell{
+  height: 100% !important;
+  justify-content: flex-start;
+  display: flex !important;
+  align-items: center;
+  left: 7px !important;
+  position: relative;
+}
+
+.MuiDataGrid-cell--textLeft{
+  height: 100% !important;
+  justify-content: flex-start;
+  display: flex !important;
+  align-items: center;
+  left: 7px !important;
+  position: relative;
+}
+
+
+.MuiDataGrid-cell.MuiDataGrid-cell--textLeft{
+  height: 100% !important;
+  justify-content: flex-start;
+  display: flex !important;
+  align-items: center;
+  left: 7px !important;
+  position: relative;
+}
+
+.quickbuys{
+  background-color: #1f9358;
+  padding: 12px 12px !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+}
+.quickb{
+  background-color: #1f9358;
+  padding: 12px 12px !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+}
+
+.sellh{
+  background-color: hsl(351, 92%, 49%);
+  padding: 12px 12px !important;
+  margin: 0 !important;
+  line-height: 0 !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+}
+
+.quickby .balance {
+  color: dimgray;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.quickby .balanceSheet {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 95%;
+  border-radius: 3px;
+  background: white;
+  margin-bottom: 300px;
+}
+
+
+
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0.5rem 1rem;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div img {
+  width: 25%;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div .balDetails_div p {
+  font-size: 10px;
+  color: #858585;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div .balDetails_div h4 {
+  margin: 0rem;
+  font-size: 2vw;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div p {
+  font-size: 10px;
+  margin: 0rem 0.7rem;
+  text-align: right;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div p span {
+  margin: 0px 5px;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .withDrawLimit_div p:nth-of-type(2) {
+  color: var(--background-color);
+  font-weight: 600;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .zeroBalanceWallet_div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.quickby .balanceSheet .balanceSheet_div .balanceSheet_header .zeroBalanceWallet_div p {
+  font-size: 10px;
+  margin: 0rem 0.7rem;
+}
+
+.quickby .balanceSheet .balanceSheet_div .productListTable {
+  margin-top: 15px !important;
+}
+
+.quickby .balanceSheet .balanceSheet_div .productListTable div {
+  font-size: 1vmax;
+
+}
+
+
+
+.quickby .balanceSheet .balanceSheet_div .productListTable a,
+.quickby .balanceSheet .balanceSheet_div .productListTable .button {
+  color: rgba(0, 0, 0, 0.527) !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
+}
+
+.quickby .balanceSheet .MuiDataGrid-root
+.MuiDataGrid-cell--textRight.MuiDataGrid-cell--withRenderer,
+.quickby .balanceSheet .MuiDataGrid-root .MuiDataGrid-cell--textRight.MuiDataGrid-cell--editing {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: inherit;
+}
+
+.quickby .balanceSheet .MuiDataGrid-root
+.MuiDataGrid-columnHeader--alignRight
+.MuiDataGrid-columnHeaderDraggableContainer,
+.quickby .balanceSheet .MuiDataGrid-root
+.MuiDataGrid-columnHeader--alignRight
+.MuiDataGrid-columnHeaderTitleContainer {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  font-size: 10px;
+  color: #858585;
+  overflow: visible !important;
+}
+
+
+.bootbuyform{
+
+  /* z-index: 99999999999999999999 !important; */
+  margin-top: '70px';
+  /* position: relative !important; */
+}
+/* 
+.bootbuyform > div{
+
+  z-index: 99999999999999999999 !important;
+  position: relative !important;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+} */
+/* #menu-appbar + .bootbuyform {
+  position: fixed !important;
+
+  z-index: 999999999999999999999 !important;
+} */
+
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+*/
+
+#menu-appbar + .bootbuyform {
+  position: fixed !important;
+}
+
+
+/* .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  width: 35% !important;
+  max-width: none !important;
+} */
+
+#menu-appbar + .bootbuyform{
+  margin: 0 4% !important;
+}
+
+#menu-appbar + .bootbuyform div{
+  position: relative !important;
+  margin:5px auto !important;
+  justify-content: space-around;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+
+  /* .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    width: 100% !important;
+    max-width: none !important;
+  } */
+  
+
+  #menu-appbar + .bootbuyform {
+    position: fixed !important;
+  }
+  
+
+  .MuiDataGrid-columnHeaderWrapper div:nth-child(4){
+    display: block !important;
+  }
+  .MuiDataGrid-columnHeaderWrapper div:nth-child(5){
+    display: block !important;
+  }
+  
+  .Mui-even div:nth-child(4){
+    display: block !important;
+  }
+  .Mui-even div:nth-child(5){
+    display: block !important;
+  }
+  
+  .Mui-odd div:nth-child(4){
+    display: block !important;
+  }
+  .Mui-odd div:nth-child(5){
+    display: block !important;
+  }
+   
+
+  .quickby .balanceSheet .balanceSheet_div .productListTable div {
+    font-size: 3.8vw;
+    white-space: inherit;
+    line-height: 15px !important;
+ 
+
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.totalBal_div
+img {
+    margin: 0px 4%;
+  }
+  .balDetails_div {
+    margin: 0px 4%;
+  }
+  .quickby .balanceSheet .balanceSheet_div .balanceSheet_header .totalBal_div {
+    width: 8rem;
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.totalBal_div
+.balDetails_div
+p {
+    font-size: 2vw;
+    color: #858585;
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.totalBal_div
+.balDetails_div
+h4 {
+    margin: 0rem;
+    font-size: 2.5vw;
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.withDrawLimit_div
+p {
+    margin: 0.2rem 0.1rem;
+    font-size: 2vw;
+    text-align: center;
+  }
+  .quickby .balanceSheet .balanceSheet_div .balanceSheet_header {
+    margin: 0.5rem;
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.zeroBalanceWallet_div
+p {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0.2rem 0.1rem;
+  }
+  .pretty {
+    margin: -0.6rem 1.1rem !important;
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.withDrawLimit_div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .quickby
+.balanceSheet
+.balanceSheet_div
+.balanceSheet_header
+.zeroBalanceWallet_div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 2rem;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Wallet.css.map */
+button#outlined-weight-helper-text{
+  /* width: 40% !important;
+  height: 2.75rem !important;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+margin-bottom: 1rem !important;
+background-color: #e11e3f;
+padding: auto;
+font-size: .675rem;
+border: 1px solid #e7eaea; */
+/* border-radius: 40px; */
+
+background-color: #f25847;
+padding: 12px 12px !important;
+/* margin: 0 !important; */
+margin-left: 46px;
+line-height: 0 !important;
+border-radius: 3px !important;
+color: #fff !important;
+position: relative;
+top: 15px;
+cursor: pointer;
+}
+.btonSeld {
+  margin-left: 10px;
+}
+
+#LeftPay button{
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 33px;
+}
+
+div#rightPay {
+  border: 0px solid black;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+div#LeftPay {
+  border: 0px solid black;
+  position: relative;
+  flex: 0 0 25%;
+}
+
+button#buybutton{
+  /* width: 55% !important;
+  height: 2.75rem !important;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: none;
+  background: #1f9358;
+  border-radius: 40px;
+  cursor: pointer;
+  padding-right: 2%;
+  font-family:"Lato-Regular" !important; */
+  /* width: 55% !important; */
+  background-color: #0a8d31;
+  padding: 12px 12px !important;
+  /* margin: 0 !important; */
+  margin-left: 40px;
+  line-height: .5 !important;
+  border-radius: 3px !important;
+  color: #fff !important;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+
+}
+button#submitButton{
+  width: 100%;
+  height: 2.75rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: none;
+  background: #d20926;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:"Lato-Regular" !important;
+}
+
+button#paybutton{
+  width: 100%;
+  height: 2.75rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: none;
+  background: #1f9358;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family:"Lato-Regular" !important;
+}
+button#sellpaybutton{
+  /* width: 60%; */
+  /* height: 2.75rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem; */
+  /* text-align: center;
+  text-transform: none;
+  background: #e11e3f;
+  /* padding: 12px 12px !important; */
+  /* margin: 0 !important; */
+  /* margin-left: 40px; */
+  /* line-height: .5 !important; */
+  /* border-radius: 3px !important; */
+  /* color: #fff !important; */
+  /* position: relative; */
+  /* top: 15px; */
+  /* cursor: pointer; */
+  /* border-radius: 4px;
+  cursor: pointer; */ 
+  background-color: #fdb201;
+  /* padding: 12px 12px !important; */
+  /* margin: 0 !important; */
+  margin-left: 40px;
+  line-height: .5 !important;
+  border-radius: 3px !important;
+  font-size: .875rem;
+  color: #fff !important;
+  position: relative;
+  /* top: 15px; */
+  cursor: pointer;
+}
+button#sellbutton{
+  width: 100%;
+  height: 2.75rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-transform: none;
+  background: #e11e3f;
+  border-radius: 4px;
+  cursor: pointer;
+}
+h2#customized-dialog-title{
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 2.875rem;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: "Lato-Regular" !important;
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+h2#customized-dialog-title button{
+  float: right !important;
+  position: relative !important;
+  z-index: 999999 !important;
+  top: 18px !important;
+  font-weight: bold !important;
+}
+
+h2#customized-dialog-title + div p span{
+  padding: 0 !important;
+}
+
+h2#customized-dialog-title + div p button{
+  padding: 0 !important;
+}
+
+
+h2#customized-dialog-title + div {
+  padding: 0 !important;
+}
+
+
+h2#customized-dialog-title + div p span{
+  font-size: 12px ;
+}
+
+h2#customized-dialog-title div > div > div {
+   padding: 0 !important;
+
+}
+h2#customized-dialog-title div > div  {
+  padding: 0 !important;
+  
+}
+h2#customized-dialog-title div {
+  padding: 0 !important;
+  
+}
+
+
+
+
+h2#customized-dialog-title button svg {
+  position: relative;
+  top: -8px;
+}
+.css-k008qs{
+  flex-wrap: wrap;
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-lc2yqr-MuiButtonBase-root-MuiIconButton-root{
+margin-left: 175px; 
+}
+
+.description{
+  text-align: center;
+}
+
+.css-153eyq5-MuiModal-root-MuiDialog-root .MuiDialogContent-root{
+  text-align: center;
+}
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedStart.MuiInputBase-adornedEnd.css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root{
+box-sizing: border-box;
+max-width: 100vw;
+height: 100%;
+margin: 0;
+overflow-x: hidden;
+font-size: 100%;
+font-family: Source Sans Pro,Raleway,Lato,Roboto,sans-serif;
+font-display: swap;
+background-color: #fff;
+}
+
+/* .MuiCardContent-root.css-46bh2p-MuiCardContent-root{
+  border: 1px solid green;
+} */
+
+.swal2-container.swal2-center.swal2-backdrop-show {
+ z-index: 19999; 
+}
+
+

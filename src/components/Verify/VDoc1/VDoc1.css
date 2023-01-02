@@ -1,0 +1,145 @@
+.vdoc_maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: url(../../../assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom ;
+    object-fit: contain;
+    height: 88vh;
+}
+
+.vdoc_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    width: 50%;
+}
+
+.vdoc_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.vdoc_flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vdoc_flex3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.vdoc_upltitle{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.vdoc_upltitle2{
+    margin-top: 2px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+}
+
+.vdoc_img{
+    height: 4rem;
+}
+
+.vdoc_upl{
+    width: 5rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+    color:  var(--background-color);
+    font-size: 0.8rem;
+    border: 1px solid #595959;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin:0 auto;
+}
+
+.vdoc_next{
+    width:8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  var(--background-color);
+    padding: 0.8rem;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 2rem auto;
+}
+
+.vdoc_prev{
+    width:8rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 0.8rem;
+    color:  var(--background-color);
+    font-size: 1.1rem;
+    border: 1px solid  var(--background-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 2rem auto;
+}
+
+@media (max-width:400px){
+    .vdoc_card{
+        width: 90%;
+        padding: 10px;
+    }
+
+    .vdoc_flex{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .vdoc_flex2{
+        margin-bottom: 1rem;
+    }
+
+    .vdoc_flex2 h3{
+        font-size: 1rem;
+        margin: 5px auto;
+    }
+
+    .vdoc_img{
+        height: 3rem;
+    }
+
+    .vdoc_flex3{
+        width: 95%;
+    }
+}
+
+
+@media (max-width:750px) and (min-width:401px){
+    .vdoc_card{
+        padding: 10px;
+        width: 90%;
+    }
+
+    .vdoc_flex3{
+        width: 95%;
+    }
+}

@@ -1,0 +1,30 @@
+.prlgn_div{
+    padding: 1rem;
+    width:65%;
+}
+
+.prlgn_title{
+    font-size: 1.55rem;
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: bold;
+    font-family: "Lato-Regular" !important;
+    color: #343434;
+}
+
+.lst_icn{
+    height: 10px;
+    margin-left: 2px;
+}
+
+@media (max-width : 500px) {
+    .prlgn_div{
+        width:92%;
+    }
+}
+
+@media (max-width : 910px) and (min-width : 501px){
+    .prlgn_div{
+        width:96%;
+    }
+    
+}

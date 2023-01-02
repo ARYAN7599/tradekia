@@ -1,0 +1,30 @@
+.section13:nth-of-type(1) {
+    background: #fff;
+}
+.section13 {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 100%;
+    right: 0;
+    left: 0;
+    transition-delay: 0.5s;
+}
+
+
+.dshb_header_div1 {
+    box-shadow: 0 3.4px 2.7px rgb(0 0 0 / 1%), 0 8.7px 6.9px rgb(0 0 0 / 1%), 0 17.7px 14.2px rgb(0 0 0 / 1%), 0 36.5px 29.2px rgb(0 0 0 / 1%), 0 100px 80px rgb(0 0 0 / 2%);
+    background-color: #fff;
+    width: 100%;
+    z-index: 99;
+    padding: 0.6rem 0 0.6rem;
+}
+.dshb_header_div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2%;
+}

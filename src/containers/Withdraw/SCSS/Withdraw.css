@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+.deposit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background: url(../../../assets/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.deposit svg {
+  color: var(--background-color) !important;
+}
+
+.deposit .deposit_heading {
+  color: dimgray;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.deposit .depositForm {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 90%;
+  border-radius: 10px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: inherit;
+}
+
+.deposit .depositForm .coinsHeading {
+  letter-spacing: 0rem;
+  font-weight: 600;
+}
+
+.deposit .depositForm .depositCoins {
+  padding: 0 1rem;
+  width: 40%;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv h3 {
+  color: #bbbbbb;
+  font-weight: 300;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress {
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  width: 92%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress:hover {
+  background-color: var(--background-color);
+  cursor: initial;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress:hover p,
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress:hover svg {
+  color: white !important;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress .css-78trlr-MuiButtonBase-root-MuiIconButton-root:hover {
+  background: none !important;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress p {
+  margin: 0 auto;
+  text-align: center;
+  color: #302e2e;
+  font-weight: bold;
+  font-size: 1.5vmax;
+  padding: 0 0.5rem;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinAddress svg {
+  color: #bbbbbb !important;
+  font-size: 2vmax;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinsPercent_btnDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4px;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.deposit .depositForm .depositCoins .coinAddressDiv .coinsPercent_btnDiv .trade_btn {
+  background-color: #efefef !important;
+  color: #bbbbbb !important;
+  margin: 5px !important;
+  font-weight: 600 !important;
+}
+
+.deposit .depositForm .depositCoins .receipt_div h3 {
+  color: #bbbbbb;
+  font-weight: 300;
+}
+
+.deposit .depositForm .depositCoins .receipt_div .coinAddress {
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  padding: 0.8rem 1rem;
+  width: 92%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.deposit .depositForm .depositCoins .withdraw_btnDiv {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.deposit .depositForm .depositCoins .withdraw_btnDiv .trade_btn {
+  background-color: var(--background-color) !important;
+  color: white;
+  font-weight: 600;
+  width: 100% !important;
+  padding: 1rem;
+}
+
+.deposit .depositForm .checkTranscation {
+  padding: 0 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  width: 40%;
+  background-color: #f6f6f6;
+}
+
+.deposit .depositForm .checkTranscation .checkTransct_div {
+  width: 50%;
+  margin: 0rem 0rem 0rem auto;
+}
+
+.deposit .depositForm .checkTranscation .checkTransct_div h3 {
+  color: var(--background-color);
+  border-radius: 8px;
+  border: 2px solid var(--background-color);
+  font-size: 0.625rem;
+  text-align: center;
+  padding: 0.5rem 0rem;
+  letter-spacing: 1px;
+}
+
+.deposit .depositForm .checkTranscation .checkTransct_div h3:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--background-color);
+}
+
+.deposit .depositForm .checkTranscation .balanceDiv h3 {
+  color: #bbbbbb;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.deposit .depositForm .checkTranscation .balanceDiv h2 {
+  color: var(--background-color);
+  font-size: 2rem;
+  margin-top: 0.838rem;
+}
+
+.deposit .depositForm .checkTranscation:nth-child(2) .balanceDiv h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.deposit .depositForm .checkTranscation:nth-child(2) .balanceDiv h3 svg {
+  margin-left: 5px;
+  color: #bbbbbb !important;
+}
+
+.coinsImg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  letter-spacing: 2.00938em !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+  color: var(--background-color) !important;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+*/
+@media screen and (max-width: 600px) {
+  .deposit {
+    height: auto;
+  }
+  .deposit .depositForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .deposit .depositForm .depositCoins {
+    width: auto;
+    margin: 1rem;
+  }
+  .deposit .depositForm .checkTranscation {
+    width: 80%;
+  }
+  .deposit .depositForm .checkTranscation .checkTransct_div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=Withdraw.css.map */

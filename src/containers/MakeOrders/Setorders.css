@@ -1,0 +1,15 @@
+.quickbsret{
+    float: right;
+    background: #238b35;
+    margin: 1rem 2rem 0rem;
+    padding: 3px 11px;
+    border-radius: 26px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#table1{
+    width: 100%;
+}

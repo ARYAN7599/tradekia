@@ -1,0 +1,276 @@
+
+
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .leftside {
+  background: #000599;
+}
+.rightside {
+  background: #006999;
+} */
+.leftside, .rightside {
+  color: rgba(255,255,255,.4);
+  padding: 0 2%;
+  text-align: left;
+}
+
+.bigimg {
+  width: 25rem;
+  margin: 0 auto;
+}
+
+.bigimg img{
+  width: 100%;
+}
+
+.rightside p h5{
+  font-family: nunito, sans-serif !important;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.rightside p h5 span{
+  padding: 2px 1px;
+  line-height: 35px;
+  border-radius: 9px;
+  color: #484848;
+  font-weight: bold;
+  font-size: 3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif !important;
+  letter-spacing: 2px;
+}
+
+
+@media ( min-width : 600px ){
+	.flexboxd {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: flex;
+	}
+  .leftside {
+    -webkit-flex: 1;
+    flex: 1 1 30%;
+    background: none;
+  }
+
+  .rightside {
+    -webkit-flex: 1;
+    flex: 1 1 53%;
+    background: none;
+  }
+}
+
+
+
+
+
+
+.footer_div {
+  background-color: var(--background-color);
+  padding: 3rem 1rem 1rem;
+  margin-top: 5%;
+}
+
+.bidsfair {
+  clear: both;
+  text-align: justify;
+  padding-top: 33px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  font-family: nunito, sans-serif !important;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.bidsfair ul span{
+  display: block;
+  font-family: nunito, sans-serif !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.bidsfair ul{
+ margin-bottom: 1rem;  
+}
+
+.bidsfair h3 {
+  text-align: center;
+  font-weight: 700;
+  font-family: nunito, sans-serif !important;
+  color: #333;
+  font-size: 42px;
+}
+.bidsfair h3 span {
+ border-bottom: 1px solid #333;
+}
+
+
+.bidsfair h1, h6{
+  text-align: left;
+  padding: 2px 1px;
+  line-height: 35px;
+  border-radius: 9px;
+  color: #484848;
+  font-weight: bold;
+  font-size: 3rem;
+  position: relative;
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif !important;
+  letter-spacing: 2px;
+}
+
+
+.bidsfair p{
+  padding: 0px 1% 0px;
+  font-family: nunito, sans-serif !important;
+  line-height: 22px;
+  color: #333;
+}
+.bidsfair ul{
+  margin: 0;
+  padding: 0 2rem 0;
+ }
+ .bidsfair ul li{
+  list-style: auto;
+  font-family: nunito, sans-serif !important;
+  line-height: 26px;
+  color: #333;
+}
+
+.ftr_img {
+  width: 14rem;
+}
+
+.ftr_flex1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ftr_text {
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 0px;
+  margin: 0 1.5rem;
+  font-family: 'Rajdhani', sans-serif !important;
+}
+
+.ftr_flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.ftr_copy {
+  color: white;
+  font-size: 1vmax;
+  text-align: justify;
+}
+
+.ftr_icons {
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+}
+
+.medium_icon{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.MuiSvgIcon-root {
+  width: 1em !important;
+  height: 1em !important;
+}
+
+.ftr_iconflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.material-icons.md-light {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  width: 1.5em;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 1000px) {
+  .ftr_text {
+    font-size: 1.5vmax;
+  }
+
+  .ftr_copy {
+    font-size: 1.5vmax;
+  }
+}
+
+@media (max-width: 660px) {
+  .ftr_flex1 {
+    display: block;
+  }
+
+  .ftr_flex2 {
+    display: block;
+  }
+
+  .ftr_img {
+    width: 100%;
+  }
+
+  .ftr_text {
+    font-size: 1rem;
+    margin: 0rem;
+    text-align: justify;
+  }
+
+  .ftr_text {
+    padding: 5px;
+  }
+
+  .ftr_copy {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .ftr_iconflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .ftr_icnflex {
+    justify-content: center;
+  }
+
+  .ftr_icons {
+    height: 1.5rem !important;
+    width: 1.5rem !important;
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1065" data-name="Rectangle 1065" width="22" height="22" transform="translate(282 370)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_109" data-name="Group 109" transform="translate(-18327 2478)">
+    <circle id="Ellipse_125" data-name="Ellipse 125" cx="22" cy="22" r="22" transform="translate(18327 -2478)" fill="#feb100"/>
+    <g id="Group_108" data-name="Group 108" transform="translate(18056 -2837)" clip-path="url(#clip-path)">
+      <path id="Path_3039" data-name="Path 3039" d="M295.222,375.635a3.143,3.143,0,1,1-4.444,0A3.142,3.142,0,0,1,295.222,375.635Z" fill="#fff"/>
+      <path id="Path_3040" data-name="Path 3040" d="M287.5,385.714v1.572h11v-1.572a2.818,2.818,0,0,0-2.02-2.531,10.4,10.4,0,0,0-6.96,0A2.818,2.818,0,0,0,287.5,385.714Z" fill="#fff"/>
+      <path id="Path_3041" data-name="Path 3041" d="M285.143,373.143h3.143V370H282v6.286h3.143Z" fill="#fff"/>
+      <path id="Path_3042" data-name="Path 3042" d="M297.714,370v3.143h3.143v3.143H304V370Z" fill="#fff"/>
+      <path id="Path_3043" data-name="Path 3043" d="M300.857,388.857h-3.143V392H304v-6.286h-3.143v3.143Z" fill="#fff"/>
+      <path id="Path_3044" data-name="Path 3044" d="M285.143,385.714H282V392h6.286v-3.143h-3.143Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

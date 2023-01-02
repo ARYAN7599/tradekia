@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,YADQ,AACP,MAAM,CAAA;EACH,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "EmailOTP.scss"
+    ],
+    "names": [],
+    "file": "EmailOTP.css"
+}

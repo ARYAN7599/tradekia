@@ -1,0 +1,183 @@
+
+
+.tryraphy{
+  position: relative;
+  background: #333;
+  color: #fff !important;
+  z-index: 99999999;
+  width: 8rem;
+  border-radius: 100px;
+}
+
+
+
+.logoAndMenuBarDiv div a button{
+  font-family: "Lato-Regular" !important;
+  text-transform: uppercase;
+  color: #545353;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-top: 0;
+  margin: 0 4px;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 1s; /* For modern browsers */
+}
+
+.logoAndMenuBarDiv div a button:hover{
+  color: #f1f1f1;
+}
+
+.home_logo {
+  width: 15rem;
+  margin-right: 5px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 3px 3px;
+}
+
+.maticon{
+  position: relative !important;
+  top: 5px !important;
+  left: -4px !important;
+  right: 0 !important;
+  margin: 0px auto 0px !important;
+  font-size: 20px !important;
+  padding-top: 6px !important;
+  color: #fff !important;
+}
+
+.home_name {
+  margin: 0 1rem 0 0;
+  font-weight: 600;
+}
+.userName_div h2,
+.userName_div p {
+  color: white;
+}
+
+.home_lgout {
+  margin: 0 1rem 0 0;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.logoAndMenuBarDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home_settng {
+  display: none;
+}
+
+.profileDiv {
+  flex-direction: row-reverse;
+}
+
+.MuiTypography-body1 {
+  color: black;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.MuiTypography-body1 {
+  margin: 5px !important;
+  padding: 0.5vmax;
+}
+
+.css-1cndkqf-MuiToolbar-root {
+  justify-content: space-between;
+}
+
+.css-1t6c9ts a {
+  margin: 5px;
+}
+
+/*
+ ______________________________________________
+|                                              |
+|            MEDIA QUERIES CSS                 |
+|______________________________________________|
+*/
+
+@media screen and (max-width: 600px) {
+
+  .css-1cndkqf-MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logoAndMenuBarDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: -webkit-fill-available;
+  }
+
+  .userInfoBox {
+    width: 33%;
+  }
+  /* home_lgout */
+  .home_logo {
+    width: 25vmax;
+    margin: 5px 0rem;
+  }
+
+  .userName_div {
+    display: none;
+  }
+
+  .userName_div h2 {
+    font-size: 2vmax;
+  }
+
+  .userName_div p {
+    font-size: 1.8vmax;
+  }
+
+  .userName_div h2,
+  .userName_div p {
+    padding: 8px !important;
+    color: black;
+  }
+
+  .profileDiv:hover + .userInfoBox {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .profileDiv:hover .userName_div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8vmax;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    right: -5px;
+  }
+
+  .profileDiv:hover .home_settng {
+    display: block;
+  }
+ 
+
+
+  .css-av538e-MuiButtonBase-root-MuiIconButton-root {
+    margin-right: 1rem !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .home_logo {
+    width: 16vmax;
+  }
+}

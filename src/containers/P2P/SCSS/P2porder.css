@@ -1,0 +1,539 @@
+.quickb2{
+    background-color: #c4230d;
+    padding: 12px 12px !important;
+    margin: 0 !important;
+    line-height: 0 !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+
+
+
+.quickb{
+    background-color: #097721;
+    padding: 12px 12px !important;
+    margin: 0 !important;
+    line-height: 0 !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+
+
+.row1df{
+    position:relative;
+}
+
+
+.tr-collpasible.collapse,
+.tr-collpasible.collapse td,
+.tr-collpasible.collapse *,
+.tr-collpasible.collapsing,
+.tr-collpasible.collapsing td,
+.tr-collpasible.collapsing * {
+    font-size: 0 !important;
+    line-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 0 !important;
+    max-height: 0 !important;
+    min-height: 0 !important;
+    opacity: 0;
+}
+
+.tr-collpasible, .tr-collpasible td, .tr-collpasible.collapse.in, .tr-collpasible.collapse.in td, .tr-collpasible.collapse * {
+    padding: 15px !important;
+    font-size: 12px !important;
+    font-weight: 700;
+    padding-left: 30px !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    height: auto !important;
+    line-height: 12px !important;
+    transition: all 200ms ease-in-out, padding-left 0ms ease, height 0s ease, font-size 0ms ease, line-height 0ms ease;
+    margin-bottom: 0 !important;
+    opacity: 1;
+}
+
+
+.tr-collpasible.collapse td {
+
+    display: table-cell;
+}
+
+.tr-collpasible.collapse{
+ display: table-row;
+}
+
+
+.topGhjty{
+display: flex;
+align-items: center;
+justify-content: center !important
+}
+.topGhjty ul li{
+  display: inline-block;
+  margin-right: 0;
+}
+.topGhjty ul li button{
+
+  margin-right: 0;
+}
+.topGhjty ul{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+@media (min-width: 640px){
+
+  .topGhjty{
+    display: flex;
+    align-items: center;
+    justify-content: start !important
+    }
+    .topGhjty ul li{
+      display: inline-block;
+      margin-right: 14px;
+    }
+    .topGhjty ul li button{
+      padding: 0;
+      margin-right: 0;
+    }
+    .topGhjty ul{
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      margin-bottom: 0;
+    }
+    
+}
+
+.topGhjty ul li span{
+  font-size: 13px;
+  font-family: "Lato-Regular" !important;
+  letter-spacing: 0;
+}
+
+.topGhjty ul li span:nth-child(2){
+  font-size: 13px;
+  font-family: "Lato-Regular" !important;
+  letter-spacing: 0;
+  font-weight: bold;
+  padding-left: 4px;
+  position: relative;
+    left: 3px
+}
+
+
+.topGhjty ul li h6 span{
+  font-size: 13px;
+  font-family: "Lato-Regular" !important;
+  letter-spacing: 0;
+  background: #fdb201;
+  margin-right: 5px;
+  padding: 3px 6px 3px;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table#example4{
+    position:relative;
+    width: 750px;
+    border-collapse: collapse;
+    margin: 50px auto;
+  }
+  
+  /* Zebra striping */
+  table#example4 tr:nth-of-type(odd) {
+    background: #eee;
+  }
+  
+  table#example4 th {
+    background: #c1c3c5;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  table#example4 td,th {
+    padding: 5px 10px 5px;
+    border:1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+  }
+  table#example4 td:nth-child(2) {
+    text-align: left;
+  }
+  
+  
+  
+  /* 
+  Max width before this PARTICULAR table gets nasty
+  This query will take effect for any screen smaller than 760px
+  and also iPads specifically.
+  
+  */
+  table#example4{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+  
+  
+  @media only screen and (max-width: 760px),
+    (min-device-width: 768px) and (max-device-width: 1024px) {
+      table#example4{
+      width: 100%;
+    }
+  
+    /* Force table to not be like tables anymore */
+    table#example4,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+  
+    /* Hide table headers (but not display: none;, for accessibility) */
+    table#example4 thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+  
+    table#example4 tr {
+      border: 1px solid #ccc;
+    }
+  
+    table#example4 td {
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee;
+      position: relative;
+      padding-left: 45%;
+      text-align: left !important;
+    }
+
+
+    
+    table#example4 td.bidfair {
+      padding-left:0;
+    }
+  
+  
+    table#example4 td:before {
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      /* Label the data */
+      content: attr(data-column);
+  
+      color: #000;
+      font-weight: bold;
+    }
+  }
+
+  .showd{
+    display: none;
+  }
+  
+  .first h5{
+    font-family: "Lato-Regular" !important;
+    font-size: 14px;
+    color: #545353;
+    text-align: left;
+    padding: 1px 0 1px;
+    font-weight: bold;
+  }
+
+  .first2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  }
+  .first2 label{
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  .first2 input{
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    line-height: 25px;
+    font-family: "Lato-Regular" !important;  text-align: left;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+
+  .bootbhuyform >div >div {
+    max-height: calc(100% - 1px) !important;
+    max-width: 1000px !important;
+    padding: 0 17px 17px;
+  }
+
+
+
+
+  
+  .clLeftContaner ul{
+    margin: 0;
+    padding: 0;
+  }
+  .clLeftContaner ul li{
+list-style: none;
+    margin-right: 8px;
+  }
+
+  .clLeftContaner ul li span{
+    font-size: 13px;
+    font-family: "Lato-Regular" !important;
+    letter-spacing: 0;
+    padding-left: 8px;
+  }
+  
+  .clLeftContaner ul li span:nth-child(1){
+    font-size: 13px;
+    font-family: "Lato-Regular" !important;
+    letter-spacing: 0;
+    font-weight: bold;
+    padding-left: 4px;
+  }
+
+
+  
+
+  
+  .clLeftContaner4 ul{
+    margin: 0;
+    padding: 0;
+  }
+  .clLeftContaner4 ul li{
+list-style: none;
+    margin-right: 8px;
+    text-align: left;
+  }
+
+  .clLeftContaner4 ul li span{
+    font-size: 13px;
+    font-family: "Lato-Regular" !important;
+    letter-spacing: 0;
+    padding-left: 8px;
+  }
+  
+  .clLeftContaner4 ul li span:nth-child(1){
+    font-size: 13px;
+    font-family: "Lato-Regular" !important;
+    letter-spacing: 0;
+    font-weight: bold;
+    padding-left: 4px;
+    margin-right: 8px;
+  }
+
+
+  .gtKopyt h6{
+    font-size: 13px;
+    font-family: "Lato-Regular" !important;
+    letter-spacing: 0;
+    padding-left: 0;
+    margin-top: 24px;
+    border-top: 1px solid #ccc;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  .bFgh5{
+    text-align: left;
+    font-size: 16px;
+    font-family: "Lato-Regular" !important;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .biFigs{
+    float: left;
+    width: 100%;
+  }
+
+.biFigs p{
+  font-size: 12px;
+  display: block;
+  font-family: "Lato-Regular" !important;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.FoGoiuy{
+  flex-wrap: wrap;
+}
+
+.txtAlidfg{
+  text-align: left;
+}
+
+  .Gihhdis{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    background: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+  }
+  .Gihhdis div{
+    float: left;
+    padding: 0 3% 0 0;
+    text-align: left;
+  }
+
+  .Gihhdis div ul li:nth-child(1) span{
+    font-weight: bold;
+    display: block;
+    font-family: "Lato-Regular" !important;
+  }
+
+ 
+  .Gihhdis div ul{
+    margin: 0 !important;
+    padding: 0 !important;
+ }
+ .Gihhdis div ul li{
+   list-style: none;
+}
+  .gtKopyt span{
+    font-size: 12px;
+    font-family: "Lato-Regular" !important;
+  }
+
+#outlined-adornment-amount{
+  font-weight: normal !important;
+}
+
+.canclUsd{
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+  border: 1px solid #333;
+  letter-spacing: 1px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 4px;
+  margin-bottom: 0 !important;
+}
+  .sellUsdt{
+    background-color: #c4230d;
+    color: #f1f1f1;
+    font-size: 14px;
+    border: 1px solid #333;
+    letter-spacing: 1px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .amoutlbl span{
+    font-weight: normal;
+  }
+
+  .amoutlbl span{
+    font-weight: normal;
+  } 
+  .wrapper2 {
+    border: 1px solid #ccc;
+  border-radius: 8px;
+  }
+
+  @media (min-width: 480px) and (max-width: 639px), (min-width: 1024px) {
+    .sidebar2 {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 35%;
+      align-items: center;
+    justify-content: center;
+    }
+    .first {
+      margin-right: 20px;
+    }
+  }
+  @media (min-width: 640px) {
+    .wrapper2 {
+      display: flex;
+    }
+    .content2 {
+      flex-grow: 1;
+      flex-shrink: 0;
+      flex-basis: 70%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .content2 {
+      flex-basis: 63%;
+    }
+  }
+
+  .biGbiop{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: #fff;
+    height: 100%;
+  }
+
+  .content2 {
+    padding: 0.5em;
+    background: #f7f7f7;
+    position: relative;
+  }
+  .sidebar2 {
+    padding: 0;
+    background: #ececec;
+  }
+
+  
+
+
+ 
+ 
